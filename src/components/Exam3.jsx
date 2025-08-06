@@ -1,0 +1,26 @@
+import React, {useState} from 'react'
+
+const Exam3 = () => {
+
+    const [input, setInput] = useState('')
+
+    const onChangeInput = (e) => {
+        setInput(e.target.value)
+    }
+
+    const onChangeButton = () => {
+        setInput('')
+    }
+
+    console.log(input)
+
+    return (
+        <div>
+            <h2>input 실습</h2>
+            <input value={input} onChange={onChangeInput} type="text"/>
+            <button onClick={onChangeButton}>click 하면 글씨가 사라짐</button>
+        </div>
+    )
+}
+
+export default Exam3
