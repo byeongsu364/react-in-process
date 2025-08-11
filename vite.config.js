@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   css: {
     devSourcemap: true // 💡 개발 환경에서 CSS 소스맵 활성화
-  }
+  },
+  base: '/react-in-process/'
 })
