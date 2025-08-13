@@ -1,4 +1,4 @@
-import TodoList from './components/TodoList'
+import MyComponenet from './components/MyComponenet'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <TodoList /> 
+      <MyComponenet /> 
     </div>
   )
 }
